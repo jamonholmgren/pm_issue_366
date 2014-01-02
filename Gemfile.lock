@@ -3,10 +3,6 @@ GEM
   specs:
     ProMotion (1.1.1)
       methadone
-    ProMotion-formotion (0.1.1)
-      ProMotion (>= 1.1.0)
-      formotion (>= 1.6.0)
-      motion-require (>= 0.0.6)
     bubble-wrap (1.4.0)
     formotion (1.6)
       bubble-wrap (~> 1.4.0)
@@ -21,5 +17,5 @@ PLATFORMS
 
 DEPENDENCIES
   ProMotion (~> 1.1.1)
-  ProMotion-formotion
+  formotion
   rake
