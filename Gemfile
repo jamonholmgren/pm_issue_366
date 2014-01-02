@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
 gem "rake"
-gem "ProMotion", "~> 1.1.1"
-gem "formotion"
-# gem "ProMotion-formotion"
+gem "ProMotion", github: "clearsightstudio/ProMotion", branch: "edge"
+gem "ProMotion-formotion"
+gem "motion-require"
